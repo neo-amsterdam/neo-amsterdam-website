@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 
 
 
@@ -768,4 +769,16 @@ h6,
 #header3-d .mbr-section-title,
 #header3-d .mbr-section-subtitle {
   text-align: center;
+}
+#custom-html-n {
+  /* Type valid CSS here */
+}
+#custom-html-n .my-image {
+  width: 100%;
+}
+#extFeatures10-l .etl-icon {
+  color: #333333;
+}
+#extFeatures10-l SPAN {
+  font-family: 'Open Sans', sans-serif;
 }
