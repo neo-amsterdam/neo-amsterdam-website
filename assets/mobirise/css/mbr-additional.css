@@ -730,19 +730,19 @@ h6,
 }
 #menu-f .link[aria-expanded="true"],
 #menu-f .dropdown-menu {
-  background: #0e0e0e;
+  background: #648286;
 }
 #menu-f .nav-dropdown-sm .link:focus,
 #menu-f .nav-dropdown-sm .link:hover,
 #menu-f .nav-dropdown-sm .dropdown-item:focus,
 #menu-f .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
+  background: #759498!important;
 }
 #menu-f .navbar,
 #menu-f .nav-dropdown-sm,
 #menu-f .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-f .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
+  background: #7e9b9f;
 }
 #menu-f .bg-color.transparent .link {
   color: #ffffff;
