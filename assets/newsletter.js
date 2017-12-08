@@ -18,28 +18,29 @@ $(document).ready(function() {
                     if(data=="Some fields are missing.")
                     {
                         $("#status").text("Some fields are missing.");
-                        $("#status").css("color", "red");
+                        $("#status").css("color", "white");
                     }
                     else if(data=="Invalid email address.")
                     {
                         $("#status").text("Your email address is invalid.");
-                        $("#status").css("color", "red");
+                        $("#status").css("color", "white");
                     }
                     else if(data=="Invalid list ID.")
                     {
                         $("#status").text("Your list ID is invalid.");
-                        $("#status").css("color", "red");
+                        $("#status").css("color", "white");
                     }
                     else if(data=="Already subscribed.")
                     {
                         $("#status").text("You're already subscribed!");
-                        $("#status").css("color", "red");
+                        $("#status").css("color", "white");
                     }
                     else
                     {
                         $("#status").text("Check your e-mail for a confirmation link.");
-                        $("#status").css("color", "green");
+                        $("#status").css("color", "white");
                     }
+                    $('#email-form').hide(300);
                 }
                 else
                 {
