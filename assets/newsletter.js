@@ -6,7 +6,7 @@ $(document).ready(function() {
             email = $form.find('input[name="email"]').val(),
             url = $form.attr('action');
 
-        $.post(url, {email:email, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
+        $.post(url, {email:email, name:name, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
 
             function(data) {
                 var data = $(data).find('h2').text();
