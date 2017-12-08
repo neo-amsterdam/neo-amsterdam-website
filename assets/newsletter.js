@@ -16,7 +16,7 @@ $(document).ready(function() {
                     console.log('data:' + data);
                     if(data=="Some fields are missing.")
                     {
-                        $("#status").text("Please fill in your email.");
+                        $("#status").text("Some fields are missing.");
                         $("#status").css("color", "red");
                     }
                     else if(data=="Invalid email address.")
