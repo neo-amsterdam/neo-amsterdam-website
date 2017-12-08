@@ -4,6 +4,7 @@ $(document).ready(function() {
 
         var $form = $(this),
             email = $form.find('input[name="email"]').val(),
+            name = $form.find('input[name="name"]').val(),            
             url = $form.attr('action');
 
         $.post(url, {email:email, name:name, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
