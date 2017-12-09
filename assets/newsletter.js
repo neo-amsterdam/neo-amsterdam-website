@@ -4,10 +4,12 @@ $(document).ready(function() {
 
         var $form = $(this),
             email = $form.find('input[name="email"]').val(),
-            name = $form.find('input[name="name"]').val(),            
+            name = $form.find('input[name="name"]').val(),
+            description = $form.find('select[name="Description"]').val(),
+
             url = $form.attr('action');
 
-        $.post(url, {email:email, name:name, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
+        $.post(url, {email:email, name:name, Description: description, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
 
             function(data) {
                 var data = $(data).find('h2').text();
