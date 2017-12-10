@@ -51,14 +51,14 @@ $(document).ready(function() {
             }
         );
     });
-    $("#newsletter-form").keypress(function(e) {
-        if(e.keyCode == 13) {
-            e.preventDefault();
-            $(this).submit();
-        }
-    });
-    $("#submit").click(function(e){
-        e.preventDefault();
-        $("#newsletter-form").submit();
-    });
+    // $("#newsletter-form").keypress(function(e) {
+    //     if(e.keyCode == 13) {
+    //         e.preventDefault();
+    //         $(this).submit();
+    //     }
+    // });
+    // $("#submit").click(function(e){
+    //     e.preventDefault();
+    //     $("#newsletter-form").submit();
+    // });
 });
