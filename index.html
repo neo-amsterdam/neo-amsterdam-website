@@ -25,13 +25,13 @@
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <style>
 
-        .form-control{
+        .form-control {
             opacity: 1 !important;
         }
 
         .img-speaker {
             height: 400px;
-            min-width: 350px;
+            min-width: 440px;
         }
 
         .partners {
@@ -45,7 +45,7 @@
 
         @media screen and (min-width: 1001px) {
             .img-partner {
-                padding-left: 100px;
+                margin-left: 100px;
             }
 
             .partner-neo {
@@ -61,6 +61,10 @@
                 max-height: 200px;
                 margin-top: -20px;
                 padding-left: 50px;
+            }
+
+            partner-tq {
+                margin-left: -100px;
             }
         }
 
@@ -231,8 +235,12 @@
 
 
                                         <div class="col-xs-12">
-                                            <select required="" style="background-color:rgb(232, 232, 232); width:100%; border-radius: 3px;" class="form-group" style="width:100%;" name="Description" data-form-field="Description" form="newsletter-form">
-                                                <option disabled selected value>Are you a developer, investor, or fan?</option>
+                                            <select required=""
+                                                    style="background-color:rgb(232, 232, 232); width:100%; border-radius: 3px;"
+                                                    class="form-group" style="width:100%;" name="Description"
+                                                    data-form-field="Description" form="newsletter-form">
+                                                <option disabled selected value>Are you a developer, investor, or fan?
+                                                </option>
                                                 <option value="developer">I'm a Developer</option>
                                                 <option value="trader">I'm an Investor/Trader</option>
                                                 <option value="interested">I'm just interested</option>
@@ -246,7 +254,7 @@
                                     </div>
                                 </form>
                                 <div style="text-align: center; width:100%; color:white;">
-                                <span style="font-style: italic">Limited Spots Available</span>
+                                    <span style="font-style: italic">Limited Spots Available</span>
                                 </div>
                             </div>
                         </div>
@@ -287,6 +295,12 @@
                  src="assets/images/qlink.png">
         </a>
         </div>
+        <div class="col-md-12 partners">
+            <a href="http://tq.com">
+                <img class="img"
+                     src="assets/images/tq.png">
+            </a>
+        </div>
     </div>
 </div>
 
@@ -316,7 +330,7 @@
                                                   class="card-img-top img-speaker"></div>
                     <div class="card-block">
                         <h4 class="feature-title">Malcolm Lerider</h4>
-                        <h5 class="feature-subtitle">NEO</h5>
+                        <h5 class="feature-subtitle">R&D at NEO</h5>
                         <div class="delimiter"></div>
                     </div>
                 </div>
@@ -345,7 +359,7 @@
                     </div>
                     <div class="card-block">
                         <h4 class="feature-title">Dean van Dugteren</h4>
-                        <h5 class="feature-subtitle">NEO dApp Starter Kit &amp; NeoPHP</h5>
+                        <h5 class="feature-subtitle">NEO dApp Starter Kit &amp; Click.DJ</h5>
                         <div class="delimiter"></div>
                     </div>
                 </div>
@@ -494,45 +508,45 @@
 <script type="text/javascript" src="assets/typed.min.js"></script>
 
 <script>
-    $(function () {
-        $(".typed").typed({
-            strings: ["Amsterdam", "阿姆斯特丹"],
-            // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-            stringsElement: null,
-            // typing speed
-            typeSpeed: 100,
-            // time before typing starts
-            startDelay: false,
-            // backspacing speed
-            backSpeed: 20,
-            // time before backspacing
-            backDelay: 4000,
-            // loop
-            loop: true,
-            // false = infinite
-            loopCount: false,
-            // show cursor
-            showCursor: true,
-            // character for cursor
-            cursorChar: "|",
-            // attribute to type (null == text)
-            attr: null,
-            // either html or text
-            contentType: 'html',
-            // call when done callback function
-            callback: function () {
-            },
-            // starting callback function before each string
-            preStringTyped: function () {
-            },
-            //callback for every typed string
-            onStringTyped: function () {
-            },
-            // callback for reset
-            resetCallback: function () {
-            }
-        });
-    });
+	$(function () {
+		$(".typed").typed({
+			strings: ["Amsterdam", "阿姆斯特丹"],
+			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+			stringsElement: null,
+			// typing speed
+			typeSpeed: 100,
+			// time before typing starts
+			startDelay: false,
+			// backspacing speed
+			backSpeed: 20,
+			// time before backspacing
+			backDelay: 4000,
+			// loop
+			loop: true,
+			// false = infinite
+			loopCount: false,
+			// show cursor
+			showCursor: true,
+			// character for cursor
+			cursorChar: "|",
+			// attribute to type (null == text)
+			attr: null,
+			// either html or text
+			contentType: 'html',
+			// call when done callback function
+			callback: function () {
+			},
+			// starting callback function before each string
+			preStringTyped: function () {
+			},
+			//callback for every typed string
+			onStringTyped: function () {
+			},
+			// callback for reset
+			resetCallback: function () {
+			}
+		});
+	});
 
 </script>
 
