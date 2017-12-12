@@ -43,7 +43,7 @@
             max-height: 100px;
         }
 
-        @media screen and (min-width: 1001px) {
+        @media screen and (min-width: 1101px) {
             .img-partner {
                 margin-left: 100px;
             }
@@ -54,21 +54,22 @@
             }
 
             .partner-nex {
-                padding-left: 75px;
+                margin-left: 75px;
             }
 
             .partner-qlink {
                 max-height: 200px;
                 margin-top: -20px;
-                padding-left: 50px;
+                margin-left: 50px;
             }
 
-            partner-tq {
-                margin-left: -100px;
+            .partner-tq {
+                margin-top: -10px;
+                margin-left: 70px;
             }
         }
 
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1100px) {
             .partners {
                 flex-direction: column;
                 align-items: center;
@@ -80,7 +81,6 @@
 
             .img-partner {
                 margin-top: 50px;
-
             }
         }
 
@@ -281,29 +281,35 @@
     </div>
 </section>
 
-<div id="custom-html-n" custom-code="true" data-rv-view="595"><!-- Type valid HTML here -->
+<div id="custom-html-n" custom-code="true" data-rv-view="595" style="display:flex; justify-content: center; align-items: center;"><!-- Type valid HTML here -->
     <div class="row">
-        <div class="col-md-12 partners">
-            <a href="http://neo.org">
-                <img class="img img-partner partner-neo" src="assets/images/neo.png">
-            </a>
-            <a href="http://neonexchange.org">
-                <img class="img img-partner partner-nex" style=""
-                     src="assets/images/NEX-Logo_Blue-medium.png">
-            </a> <a href="http://qlink.mobi">
-            <img class="img img-partner partner-qlink"
-                 src="assets/images/qlink.png">
-        </a>
-        </div>
-        <div class="col-md-12 partners">
-            <a href="http://tq.co">
-                <img class="img"
-                     src="assets/images/tq.png">
-            </a>
+        <div class="col-lg-12 partners">
+            <div class="col-lg-3 col-md-12">
+                <a href="http://neo.org">
+                    <img class="img img-partner partner-neo" src="assets/images/neo.png">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <a href="http://neonexchange.org">
+                    <img class="img img-partner partner-nex" style=""
+                         src="assets/images/NEX-Logo_Blue-medium.png">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <a href="http://qlink.mobi">
+                    <img class="img img-partner partner-qlink"
+                         src="assets/images/qlink.png">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <a href="http://tq.co">
+                    <img class="img partner-tq"
+                         src="assets/images/tq.png">
+                </a>
+            </div>
         </div>
     </div>
 </div>
-
 <section class="mbr-cards mbr-section extFeatures" id="extFeatures9-j" data-rv-view="584"
          style="background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 80px;">
 
@@ -326,11 +332,13 @@
         <div class="mbr-cards-col col-xs-12 col-lg-4">
             <div class="container">
                 <div class="card cart-block">
-                    <div class="feature-img"><img src="assets/images/malcolm-350x360.png"
+                    <div class="feature-img"><img src="assets/images/malcolm_L_neo.jpeg"
                                                   class="card-img-top img-speaker"></div>
                     <div class="card-block">
                         <h4 class="feature-title">Malcolm Lerider</h4>
                         <h5 class="feature-subtitle">R&D at NEO</h5>
+                        <h5 class="feature-subtitle"><a href="https://www.linkedin.com/in/malcolm-lerider-1144364a/"
+                                                        target="_blank">LinkedIn</a></h5>
                         <div class="delimiter"></div>
                     </div>
                 </div>
@@ -373,7 +381,7 @@
         <div class="mbr-cards-col col-xs-12 col-lg-4">
             <div class="container">
                 <div class="card cart-block">
-                    <div class="feature-img"><img src="assets/images/placeholder-hi.png"
+                    <div class="feature-img"><img src="assets/images/allen_lee.png"
                                                   class="card-img-top img-speaker"></div>
                     <div class="card-block">
                         <h4 class="feature-title">Allen Li</h4>
@@ -409,7 +417,28 @@
 
                 <li class="timeline-inverted separline" style="display: block;">
                     <div class="timeline-panel">
-                        <h4 class="h-black">16:00<br>Presentation 1</h4>
+                        <h4 class="h-black">16:00<br>NEO (R&D Malcolm Lerider)</h4>
+                        <p class="mbr-section-text-gray lead h-black"><span style="font-style: normal;">NEO is a non-profit community-based blockchain project that utilizes blockchain technology and digital identity to digitize assets, to automate the management of digital assets using smart contracts, and to realize a "smart economy" with a distributed network.</span>
+                        </p>
+                    </div>
+                    <span class="iconBackgroundInverse"><span class="icon"><span
+                            class="mbri-help mbr-iconfont-features6"
+                            style="color: rgb(102, 102, 102);"></span></span></span>
+                </li>
+
+                <li class="timeline-normal separline" style="display: block;">
+                    <span class="iconBackground"><span class="icon"><span class="mbri-help mbr-iconfont-features6"
+                                                                          style="color: rgb(102, 102, 102);"></span></span></span>
+                    <div class="timeline-panel">
+                        <h4 class="h-black text-right">16:30<br>QLink (CEO Allen Li)</h4>
+                        <p class="mbr-section-text-gray lead h-black"><span style="font-style: normal;">Former Huawei software engineer and multiple patent owner. He successfully commercialized the Virtual SIM product and billing system in previous start-up and supported 4 million paid users cross Asia. Qlink, world’s first a decentralized mobile network, is dedicated to provide more efficient, affordable and secured mobile telecom services.</span>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted separline" style="display: block;">
+                    <div class="timeline-panel">
+                        <h4 class="h-black">17:00<br>Presentation 3 (TBC)</h4>
                         <p class="mbr-section-text-gray lead h-black"></p>
                     </div>
                     <span class="iconBackgroundInverse"><span class="icon"><span
@@ -421,34 +450,16 @@
                     <span class="iconBackground"><span class="icon"><span class="mbri-help mbr-iconfont-features6"
                                                                           style="color: rgb(102, 102, 102);"></span></span></span>
                     <div class="timeline-panel">
-                        <h4 class="h-black text-right">16:30<br>Presentation 2</h4>
+                        <h4 class="h-black text-right">17:30<br>Presentation 5 (TBC)</h4>
                         <p class="mbr-section-text-gray lead h-black"></p>
                     </div>
                 </li>
 
                 <li class="timeline-inverted separline" style="display: block;">
                     <div class="timeline-panel">
-                        <h4 class="h-black">17:00<br>Presentation 3</h4>
-                        <p class="mbr-section-text-gray lead h-black"></p>
-                    </div>
-                    <span class="iconBackgroundInverse"><span class="icon"><span
-                            class="mbri-help mbr-iconfont-features6"
-                            style="color: rgb(102, 102, 102);"></span></span></span>
-                </li>
-
-                <li class="timeline-normal separline" style="display: block;">
-                    <span class="iconBackground"><span class="icon"><span class="mbri-help mbr-iconfont-features6"
-                                                                          style="color: rgb(102, 102, 102);"></span></span></span>
-                    <div class="timeline-panel">
-                        <h4 class="h-black text-right">17:30<br>Presentation 4</h4>
-                        <p class="mbr-section-text-gray lead h-black"></p>
-                    </div>
-                </li>
-
-                <li class="timeline-inverted separline" style="display: block;">
-                    <div class="timeline-panel">
-                        <h4 class="h-black">18:00<br>Presentation 5</h4>
-                        <p class="mbr-section-text-gray lead h-black"></p>
+                        <h4 class="h-black">18:00<br>NEX</h4>
+                        <p class="mbr-section-text-gray lead h-black"><span style="font-style: normal;">NEX is a platform for complex decentralized cryptographic trade and payment service creation.NEX combines the NEO blockchain with an off-chain matching engine to enable much faster and more complex trades than existing decentralized exchanges.</span>
+                        </p>
                     </div>
                     <span class="iconBackgroundInverse"><span class="icon"><span
                             class="mbri-help mbr-iconfont-features6"
@@ -477,7 +488,8 @@
     <div class="container">
         <div class="row">
             <div class="mbr-footer-content col-xs-12 col-md-3">
-                <p><strong>Address</strong><br>TBA<br><br><strong>Contact</strong><br>
+                <p><strong>Address</strong><br> TQ </br>Singel 542 </br> 1017 AZ Amsterdam </br> The Netherlands
+                    <br><br><strong>Contact</strong><br>
                     Email: contact@neo.amsterdam</p>
             </div>
             <div class="mbr-footer-content col-xs-12 col-md-3"></div>
