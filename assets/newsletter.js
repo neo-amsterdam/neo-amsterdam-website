@@ -11,7 +11,7 @@ $(document).ready(function() {
             url = $form.attr('action');
         console.log('Post');
 
-        $.post(url, {email:email, name:name, Description: description, boolean: true, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
+        $.post(url, {email:email, name:name, Description: description, boolean: "true", list: 'kvPCfUDn7UqJsFkdeGrHsg'},
 
             function(data) {
                 var data = $(data).find('h2').text();
