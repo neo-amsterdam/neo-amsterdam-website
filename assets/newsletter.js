@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("#newsletter-form").submit(function(e){
         e.preventDefault();
+        console.log("Submit Click");
 
         var $form = $(this),
             email = $form.find('input[name="email"]').val(),
@@ -8,6 +9,7 @@ $(document).ready(function() {
             description = $form.find('select[name="Description"]').val(),
 
             url = $form.attr('action');
+        console.log('Post');
 
         $.post(url, {email:email, name:name, Description: description, list: 'kvPCfUDn7UqJsFkdeGrHsg'},
 
