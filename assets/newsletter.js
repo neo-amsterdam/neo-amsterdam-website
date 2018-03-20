@@ -14,7 +14,6 @@ $(document).ready(function() {
         $.post(url, {email:email, name:name, Description: description, boolean: "true", list: 'kvPCfUDn7UqJsFkdeGrHsg'},
 
             function(data) {
-                var data = $(data).find('h2').text();
                 console.log(data);
                 if(data)
                 {
